@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Google-Meet-Clone
+<p align="center"> 
+  <h3 align="center">Google Meet Clone</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    Google Meet Clone!
+    <br />  
+     A Video Conference App Similar to Google Meet
+    <br />
+  </p>
+</p>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-In the project directory, you can run:
+* [Full Tutorial](#tutorial)   
+* [How To Run](#usage) 
+* [ScreenShots](#demo) 
+* [Contact](#contact)
 
-### `npm start`
+<!-- tutorial -->
+## Tutorial  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* This repository is part of a youtube tutorial series , if you are interested to learn how to development is done , you can go through this playlist.https://www.youtube.com/playlist?list=PLGmKMg3aRkXguVpBmQLtXbTXf1Fzd1sWt
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- Prerequisites -->
+## Usage
+* Run npm install.
+* Add your firebase config details to Server/firebase.js. 
+* Run npm run start to start the app. 
+ 
+<!-- Demo -->
+## Demo
+* The App can support upto 8-12 users without having any UI alignment issues
 
-### `npm test`
+* Desktop View
+![](screenshots/Desktop%20View.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Desktop Sharing View
+![](screenshots/Screenshare.jpg)
 
-### `npm run build`
+* Mobile View
+<br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](screenshots/Mobile%20View.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- CONTACT -->
+## Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instagram - [@Instagram](https://www.instagram.com/i_m_ck13/) - chithakumar13@gmail.com
 
-### `npm run eject`
+Twitter - [@Twitter](https://twitter.com/AlgosCk)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/chithakumar13/google-meet-clone](https://github.com/chithakumar13/google-meet-clone)
