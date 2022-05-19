@@ -1,8 +1,8 @@
 import firebase from "firebase";
 
 var firebaseConfig = {
-  apiKey: "", // Add API Key
-  databaseURL:"" // Add databaseURL
+  apiKey: "AIzaSyCfYVDGoIR3-fU4yQrguq7d1EyDJgv9BxE", // Add API Key
+  databaseURL: "https://livechatdatabase-default-rtdb.asia-southeast1.firebasedatabase.app/" // Add databaseURL
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);

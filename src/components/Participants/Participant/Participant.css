@@ -1,68 +1,80 @@
+.live-video-chat {
+  background-color: #353b48;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+  /* border-radius: 5px; */
+}
 
+.participant-live-chat {
+  background-color: #353b48;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  min-height: 200px;
 
-  .video{
-    background-color: #353b48;
-    height: 100%;
-    width: 100%;
+}
+
+/* #own-video {
+  height: "180pxx" !important;
+  width: "120px" !important;
+  position: 'absolute' !important;
+  right: "10px" !important;
+  margin: "5px" !important;
+  border: "1px solid gold" !important;
+  border-radius: "5px" !important;
+  overflow: 'hidden' !important;
+} */
+
+.muted {
+  color: #fff;
+  right: 10px;
+  position: absolute;
+  top: 10px;
+  background: #353b48;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px !important;
+}
+
+.hide {
+  display: none;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 150px;
+  font-family: roboto, arial;
+  color: white;
+  text-align: center;
+  background: orange;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.name {
+  color: white;
+  bottom: 10px;
+  position: absolute;
+  left: 20px;
+}
+
+@media (max-width: 800px) {
+  .participant-live-chat {
+    min-height: 0px;
     position: relative;
-    object-fit: cover;
-    border-radius: 5px;
-  }
-
-  .participant {
-    background-color: #353b48;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    border-radius: 5px;
-    min-height: 200px
-  }
-
-  .muted {
-    color: #fff;
-    right: 10px;
-    position: absolute;
-    top: 10px;
-    background: #353b48;
-    border-radius: 50%;
-    height: 22px;
-    width: 22px!important;
-  }
-
-  .hide {
-    display: none;
   }
 
   .avatar {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    font-size: 150px;
-    font-family: roboto, arial;
-    color: white;
-    text-align: center;
-    background: orange;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
   }
-
-  .name {
-    color: white;
-    bottom: 10px;
-    position: absolute;
-    left: 20px;
-  }
-
-  @media (max-width: 800px) {
-    .participant{
-      min-height: 0px;
-    }
-    .avatar {
-      width: 80px;
-      height: 80px;
-      font-size: 50px;
-    }
-  }
+}

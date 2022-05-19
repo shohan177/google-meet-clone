@@ -6,6 +6,7 @@ import { Participant } from "./Participant/Participant.component";
 const Participants = (props) => {
   const videoRef = useRef(null);
   let participantKey = Object.keys(props.participants);
+  let screenWidth = window.innerWidth;
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.srcObject = props.stream;
@@ -57,6 +58,7 @@ const Participants = (props) => {
 
     return (
       <Participant
+        videoType="remort_video"
         key={curentIndex}
         currentParticipant={currentParticipant}
         curentIndex={curentIndex}
@@ -71,15 +73,16 @@ const Participants = (props) => {
   });
   return (
     <div
-      style={{
+      style={screenWidth > 1100 ? {
         "--grid-size": gridCol,
         "--grid-col-size": gridColSize,
         "--grid-row-size": gridRowSize,
-      }}
-      className={`participants`}
+      } : null}
+      className={`video-chat-participants`}
     >
       {participants}
       <Participant
+        videoType="own_video"
         currentParticipant={currentUser}
         curentIndex={participantKey.length}
         hideVideo={screenPresenter && !currentUser.screen}
